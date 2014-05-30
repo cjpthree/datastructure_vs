@@ -1,0 +1,7 @@
+ // c6-2.h 二叉树的二叉链表存储表示
+#pragma once
+ typedef struct BiTNode
+ {
+   TElemType data;
+   BiTNode *lchild,*rchild; // 左右孩子指针
+ }BiTNode,*BiTree;
